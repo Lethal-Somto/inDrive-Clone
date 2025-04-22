@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            height: 190vh;
+            /* background: black; */
+            margin-top: 50px;
+            position: relative;
+
+        }
+        body {
+            overflow: hidden;
+
+        }
+
+
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: var(--color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            color: white;
+            animation: spin var(--duration) .3s ease-in forwards infinite;
+            border-radius: 20%;
+
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+                margin-left: 0px;
+            }
+            50% {
+                transform: rotate(180deg);
+                margin-left: 100px;
+
+            }
+            100% {
+                transform: rotate(360deg) scale(0.7);
+                margin-left: 200px;
+            }
+        }
+
+        .one {
+            --color : red;
+            --duration: 4s;
+        }
+        .two {
+            --color : blue;
+            position: absolute;
+            bottom: 0;
+            --duration: 2s;
+        }
+        .three {
+            --color : green;
+            position: sticky;
+            top: 0;
+            right: 20px;
+            --duration: 1s;
+        }
+
+        aside {
+            height: 100vh;
+            width: 300px;
+            background-color: white;
+            border-radius: 20px 0 0 20px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            box-shadow: -4px 5px 8px 2px rgba(0, 0, 0, 0.2);
+            transform: translateX(100%);
+            transition: all 0.6s ease-in-out;
+        }
+#menu:checked ~ aside {
+            transform: translateX(0);
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="menu" class="">
+    <aside>
+
+    </aside>
+   <section>
+
+    <div class=" one">1</div>
+    <div class=" two">2</div>
+    <div class=" three">3</div>
+   </section>
+
+
+</body>
+</html>

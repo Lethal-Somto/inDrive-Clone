@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Rotation Demo</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+      background: #1a1a1a;
+      margin: 0;
+      color: white;
+      font-family: sans-serif;
+    }
+
+    .scene {
+      perspective: 800px;
+    }
+
+    .card {
+      width: 150px;
+      height: 200px;
+      background: linear-gradient(45deg, #00c6ff, #0072ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      border-radius: 15px;
+      transition: transform 1s;
+      transform-style: preserve-3d;
+    }
+
+    .scene:hover .rotateX {
+      transform: rotateX(60deg);
+    }
+
+    .scene:hover .rotateY {
+      transform: rotateY(60deg);
+    }
+
+    .scene:hover .rotateZ {
+      transform: rotateZ(60deg);
+    }
+
+    .label {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="scene">
+      <div class="card rotateX">X-Axis</div>
+    </div>
+    <div class="label">Hover: Flips Forward / Backward</div>
+  </div>
+
+  <div class="wrapper">
+    <div class="scene">
+      <div class="card rotateY">Y-Axis</div>
+    </div>
+    <div class="label">Hover: Rotates Side to Side</div>
+  </div>
+
+  <div class="wrapper">
+    <div class="scene">
+      <div class="card rotateZ">Z-Axis</div>
+    </div>
+    <div class="label">Hover: Spins like a Clock</div>
+  </div>
+
+</body>
+</html>

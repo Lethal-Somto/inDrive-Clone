@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#faefef;}
+.dorik-logo{
+    width:  80px;
+    padding: 15px;
+    padding-left: 100px;
+    padding-top: 5px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    
+}
+.top-menus-left{
+    display: flex;
+    gap: 230px;
+    align-items: center;
+    padding: 10px;
+    
+}
+#left-menus-only{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+.top-menus-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    padding-right: 120px;
+}
+.sign-up-button{
+    border-radius: 4px;
+    width: 90px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(11, 11, 203);
+}
+.login{
+    color: rgb(8, 8, 186);
+    
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    text-align: center;
+    padding-top: 70px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+    
+}
+h1{
+    color: rgb(21, 21, 79);
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.ui-blocks{
+    font-weight: 900;
+    font-size: 80px;
+}
+.build{
+    color: rgb(16, 16, 107);
+    padding-bottom: 20px;
+    font-size: 22px;
+    width: auto;
+}
+#webmobile{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Try-free-button{
+    border-radius: 4px;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(17, 17, 145);
+    color: rgb(253, 247, 247);
+    outline:  0;
+    border: 0;
+    font-weight: bold;
+    font-size: 17px;
+
+    
+}
+
+
+

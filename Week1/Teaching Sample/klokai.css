@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+.top {
+    display: flex;
+    justify-content: end;
+    padding: 12px;
+  
+}
+
+.top-right {
+    color: white;
+    font-size: 16px;
+    text-align: right;
+    display: flex;
+    gap: 8px;
+    font-weight: 500;
+   
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-center {
+    text-align: center;
+    padding: 24px;
+    width: 420px;
+  
+}
+
+.middle-h3 {
+    color: rgb(180, 180, 180);
+    font-size: 40px;
+    font-weight: 800 !important;
+}
+
+.middle-p {
+    color: wheat;
+    font-size: 16px;
+    padding: 0 24px;
+    font-weight: 500;
+}
+
+.connect-google {
+    background-color: rgb(64, 64, 133);
+    color: white;
+    border-radius: 12px;
+    width: 360px;
+    height: 45px;
+    outline: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.svg-google {
+    width: 8px;
+    height: 8px;
+   
+}
+.connect-wallet {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 12px;
+    width: 360px;
+    height: 45px;
+    outline: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+
+    
+}
+
+.or {
+    color: white;
+}

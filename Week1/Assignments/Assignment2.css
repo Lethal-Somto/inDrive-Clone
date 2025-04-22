@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: white;
+}
+
+
+body > section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    
+
+}
+div[lang="topleft"] {
+    display: flex;
+    gap: 230px;
+    align-items: center;
+    padding: 10px;
+}
+div > img{
+    width:  80px;
+    padding: 15px;
+    padding-left: 100px;
+    padding-top: 5px;
+}
+div[lang="left-menus-only"]{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+div[lang="top-menus-right"]{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    padding-right: 120px;
+}
+div[lang="top-menus-right"] > div{
+    color: rgb(8, 8, 186);
+}
+button[lang="sign"]{
+    border-radius: 4px;
+    width: 90px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(11, 11, 203);
+
+}
+
+section ~ section{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    text-align: center;
+    padding-top: 70px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+    
+}
+    
+
+h1{
+    color: rgb(21, 21, 79);
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+span{
+    font-weight: 900;
+    font-size: 80px;
+}
+div[lang="build"]{
+    color: rgb(16, 16, 107);
+    padding-bottom: 20px;
+    font-size: 22px;
+    width: auto;
+}
+p[lang="webmobile"]{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button[lang="Try-free-button"]{
+    border-radius: 4px;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(17, 17, 145);
+    color: rgb(253, 247, 247);
+    outline:  0;
+    border: 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+/* to comment out control slash */

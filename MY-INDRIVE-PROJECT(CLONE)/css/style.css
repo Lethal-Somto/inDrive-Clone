@@ -144,10 +144,7 @@
 #en-toggle:checked ~ .modal-screen{
     visibility: visible;
 }
-.en-close-icon{
-    
-   
-}
+
 .menu-button {
     display: flex;
     align-items: center;

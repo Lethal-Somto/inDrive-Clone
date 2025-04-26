@@ -77,9 +77,7 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </nav>
     </header>
@@ -94,25 +92,38 @@
     <input type="checkbox" id="en-toggle">
     <div class="modal-screen">
         <div class="modal-container">
-            <div>
-                <div class="modal-container-head">
-                    <p>Country and language </p>
+            <div class="modal-container-head">
+                <div>
+                    <p><b>Country and language </b></p>
                 </div>
                 <label for="en-toggle">
-                    saasf
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
-                        class="en-close-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"
+                        lass="en-close-icon">
                         <path d="M18 6L6 18M6 6l12 12" stroke="black" stroke-width="2" fill="none" />
                     </svg>
                 </label>
             </div>
-            <div>
-                <div><select name="" id="modal-container-select"></select>
-                   
+            <div class="Select-inside-modal-container">
+                <div class="select">
+                    <img src="./Images-indrive/lang-global.svg" alt="" class="lang-global">
+                    <select name="" id="modal-container-select">
+                        <option value="">Global</option>
+                        <option value="">Algeria</option>
+                        <option value="">Argentina</option>
+                        <option value="">Bangladesh</option>
+                        <option value="">Bolivia</option>
+                        <option value="">Bostwana</option>
+                    </select>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" size="24" class="arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.7364 15.6364C17.3849 15.9879 16.8151 15.9879 16.4636 15.6364L12 11.1728L7.53639 15.6364C7.18492 15.9879 6.61507 15.9879 6.2636 15.6364C5.91213 15.2849 5.91213 14.7151 6.26361 14.3636L11.3636 9.2636C11.7151 8.91213 12.285 8.91213 12.6364 9.26361L17.7364 14.3636C18.0879 14.7151 18.0879 15.2849 17.7364 15.6364Z" fill="currentColor"></path></svg>
                 </div>
-                <div></div>
+                <div class="select" id="select1">
+                    <select name="" id="modal-container-select2">
+                        <option value="">English</option>
+                    </select>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" size="24" class="arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.7364 15.6364C17.3849 15.9879 16.8151 15.9879 16.4636 15.6364L12 11.1728L7.53639 15.6364C7.18492 15.9879 6.61507 15.9879 6.2636 15.6364C5.91213 15.2849 5.91213 14.7151 6.26361 14.3636L11.3636 9.2636C11.7151 8.91213 12.285 8.91213 12.6364 9.26361L17.7364 14.3636C18.0879 14.7151 18.0879 15.2849 17.7364 15.6364Z" fill="currentColor"></path></svg>
+                </div>
             </div>
-            <button>
+            <button class="download-the-app" id="save-button">
                 <p>Save</p>
             </button>
         </div>

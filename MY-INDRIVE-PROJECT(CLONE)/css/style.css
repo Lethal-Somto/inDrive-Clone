@@ -57,7 +57,7 @@
     cursor: pointer;
 }
 .modal-screen{
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -69,8 +69,8 @@
 }
 .modal-container{
     background-color: white;
-    width: 550px;
-    height: 250px;
+    width: 650px;
+    height: 300px;
     border-radius: 16px;
     position: absolute;
     left: 50%;
@@ -79,6 +79,65 @@
    
     
 }
+.modal-container-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 25px;
+}
+.Select-inside-modal-container{
+    display: flex;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    justify-content: space-between;
+}
+.select{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    background-color: #f3f4f6;
+    height: 55px;
+    border-radius: 12px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    gap: 10px;
+    padding-left: 20px;
+}
+.select:hover{
+    background-color: #bbbbbe ;
+}
+.select:focus{
+    border: 2px solid black;
+}
+.select select{
+ background-color:  #f3f4f6;
+ width: 80%;
+ appearance: none;
+ border: none;
+ outline: none;
+ height: 100%;
+ font-size: 18px;
+ 
+ 
+}
+
+.select select:hover{
+    background-color: #bbbbbe ;
+}
+.arrow{
+    transform: translateY(-50%);
+    margin-top: 20px;
+}
+.lang-global{
+    width: 24px;
+}
+#save-button{
+    width: 100px;
+    margin: 30px;
+    height: 60px;
+    transition: none;
+}
 #en-toggle{
     visibility: none;
 }
@@ -86,8 +145,8 @@
     visibility: visible;
 }
 .en-close-icon{
-    margin-left: 500px;
-    margin-top: 30px;
+    
+   
 }
 .menu-button {
     display: flex;
@@ -331,6 +390,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    cursor: pointer;
 
 }
 
@@ -376,6 +436,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     line-height: 20px;
     transition: all 0.5s  0.05s ease;
+    cursor: pointer;
 
 }
 .containers-in-section3:hover{
@@ -479,6 +540,7 @@
     position: relative;
     z-index: 1;
     gap: 5px;
+    cursor: pointer;
 }
 
 .h3-in-section4-container {
@@ -809,6 +871,7 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+    cursor: pointer;
 }
 
 .part-containing-datepart-and-description {

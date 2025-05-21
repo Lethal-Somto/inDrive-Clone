@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)file:///C:/Users/HP/Desktop/My%20front-end%20journey/MY-INDRIVE-PROJECT(CLONE)/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div><img src="./Document_files/indrive-logo.svg" alt="In-drive-logo" class="In-drive-logo"></div>
+            <div class="top-right">
+                <input type="checkbox" id="menu-toggle">
+                <div class="dark-indrive-logo"><img src="./Document_files/logo--dark.svg" alt=""></div>
+                <button class="download-the-app" id="top-download-the-app">Download the app</button>
+                <label class="en-button" for="en-toggle"> <img src="./Document_files/web-logo.svg" alt="web-logo">En</label>
+                <label for="menu-toggle" class="menu-button"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000" class="menu-icon">
+                        <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"></path>
+                    </svg>
+                    <p>Menu</p>
+                </label>
+
+                <label for="menu-toggle" class="close-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M18 6L6 18M6 6l12 12" stroke="black" stroke-width="2" fill="none"></path>
+                    </svg>
+                    <p><b>Close</b></p>
+                </label>
+
+                <div class="fixed" id="menu">
+                    <div class="nav-fixed">
+                        <div class="nav-fixed-menus">
+                            <p>Fair services</p>
+                        </div>
+                        <div class="nav-fixed-menus">
+                            <p> Earn with inDrive</p>
+                        </div>
+                        <div class="nav-fixed-menus">
+                            <p> For business</p>
+                        </div>
+                        <div class="nav-fixed-menus">
+                            <p>Safety</p>
+                        </div>
+                        <div class="nav-fixed-menus">
+                            <p> Impact</p>
+                        </div>
+                        <div class="nav-fixed-menus">
+                            <p>About us</p>
+                        </div>
+                        <div class="nav-fixed-menus">
+                            <p> Careers <img src="./Document_files/outerpath-arrow.svg" alt=""></p>
+                        </div>
+                    </div>
+                    <div class="fixed-body">
+                        <img src="./Document_files/fair-services.svg" alt="" class="fair-services-image">
+                        <div>
+                            <h2>Fair Service</h2>
+                        </div>
+                        <div class="fixed-column">
+                            <div>
+                                <p><b>City rides</b></p>
+                            </div>
+                            <div>
+                                <p><b>City to city</b></p>
+                            </div>
+                            <div>
+                                <p><b>Courier delivery</b></p>
+                            </div>
+                            <div>
+                                <p><b>Freight delivery</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="section1">
+        <div class="gradient-cover"></div>
+        <div>
+            <h1 class="join">Join a <mark class="highlight">fair journey</mark><br>Where people agree on ride<br> prices
+                together</h1>
+        </div>
+        <button class="download-the-app">Download the app</button>
+    </main>
+    <input type="checkbox" id="en-toggle">
+    <div class="modal-screen">
+        <div class="modal-container">
+            <div class="modal-container-head">
+                <div>
+                    <p><b>Country and language </b></p>
+                </div>
+                <label for="en-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" lass="en-close-icon">
+                        <path d="M18 6L6 18M6 6l12 12" stroke="black" stroke-width="2" fill="none"></path>
+                    </svg>
+                </label>
+            </div>
+            <div class="Select-inside-modal-container">
+                <div class="select">
+                    <img src="./Document_files/lang-global.svg" alt="" class="lang-global">
+                    <select name="" id="modal-container-select">
+                        <option value="">Global</option>
+                        <option value="">Algeria</option>
+                        <option value="">Argentina</option>
+                        <option value="">Bangladesh</option>
+                        <option value="">Bolivia</option>
+                        <option value="">Bostwana</option>
+                    </select>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" size="24" class="arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.7364 15.6364C17.3849 15.9879 16.8151 15.9879 16.4636 15.6364L12 11.1728L7.53639 15.6364C7.18492 15.9879 6.61507 15.9879 6.2636 15.6364C5.91213 15.2849 5.91213 14.7151 6.26361 14.3636L11.3636 9.2636C11.7151 8.91213 12.285 8.91213 12.6364 9.26361L17.7364 14.3636C18.0879 14.7151 18.0879 15.2849 17.7364 15.6364Z" fill="currentColor"></path></svg>
+                </div>
+                <div class="select" id="select1">
+                    <select name="" id="modal-container-select2">
+                        <option value="">English</option>
+                    </select>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" size="24" class="arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.7364 15.6364C17.3849 15.9879 16.8151 15.9879 16.4636 15.6364L12 11.1728L7.53639 15.6364C7.18492 15.9879 6.61507 15.9879 6.2636 15.6364C5.91213 15.2849 5.91213 14.7151 6.26361 14.3636L11.3636 9.2636C11.7151 8.91213 12.285 8.91213 12.6364 9.26361L17.7364 14.3636C18.0879 14.7151 18.0879 15.2849 17.7364 15.6364Z" fill="currentColor"></path></svg>
+                </div>
+            </div>
+            <button class="download-the-app" id="save-button">
+                <p>Save</p>
+            </button>
+        </div>
+    </div>
+    <section class="section2">
+        <div class="section2div">
+            <div class="Challenging">
+                <h2>Challenging injustice to make<br> the world a fairer place for one<br> billion people</h2>
+            </div>
+            <div class="textnumber-section2">
+                <div>
+                    <div class="numbers" id="numbers-section2">888</div>
+                    <div>cities</div>
+                </div>
+                <div>
+                    <div class="numbers" id="numbers-section2">48</div>
+                    <div>countries</div>
+                </div>
+                <div>
+                    <div class="numbers" id="numbers-section2">280</div>
+                    <div>milion app download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <button class="buttons-from-section3" id="section3-firstbutton">
+            <p>inDrive app</p>
+        </button>
+        <div>
+            <h2 class="section-headings">One app, many services</h2>
+        </div>
+        <div class="containing1">
+            <div class="containers-in-section3">
+                <div><img src="./Document_files/section3-containing1-container1.webp" alt="" class="section3-container-images"></div>
+                <div>
+                    <h3 class="h3-in-section3-container">City rides</h3>
+                </div>
+                <div>
+                    <p>Choose your ride, get a fair deal</p>
+                </div>
+                <div class="button-container"><button class="buttons-from-section3">Passengers</button>
+                    <button class="buttons-from-section3">Drivers</button>
+                </div>
+            </div>
+            <div class="containers-in-section3">
+                <div><img src="./Document_files/section3-containing1-container2.webp" alt="" class="section3-container-images"></div>
+                <div>
+                    <h3 class="h3-in-section3-container">City to city</h3>
+                </div>
+                <div>
+                    <p>Comfortable rides to other cities: on your<br> schedule and for a fair fare</p>
+                </div>
+                <div class="button-container">
+                    <button class="buttons-from-section3">Passengers</button>
+                    <button class="buttons-from-section3">Drivers</button>
+                </div>
+            </div>
+            <div class="containers-in-section3">
+                <div><img src="./Document_files/section3-containing1-container3.webp" alt="" class="section3-container-images"></div>
+                <div>
+                    <h3 class="h3-in-section3-container">Courier delivery</h3>
+                </div>
+                <div>
+                    <p>Express courier delivery for individuals and<br> businesses</p>
+                </div>
+                <div class="button-container">
+                    <button class="buttons-from-section3">Clients</button>
+                    <button class="buttons-from-section3">Courier</button>
+                    <button class="buttons-from-section3">For Business</button>
+                </div>
+            </div>
+        </div>
+        <div class="containing2">
+            <div class="containers-in-section3">
+                <div><img src="./Document_files/section3-containing2-container1.webp" alt="" class="section3-container-images"></div>
+                <div>
+                    <h3 class="h3-in-section3-container">Freight delivery</h3>
+                </div>
+                <div>
+                    <p>Transporting and tracking cargo for people<br> and companies</p>
+                </div>
+                <div class="button-container">
+                    <button class="buttons-from-section3">Clients</button>
+                    <button class="buttons-from-section3">Drivers</button>
+                    <button class="buttons-from-section3">For Business</button>
+                </div>
+            </div>
+            <div class="containers-in-section3">
+                <div><img src="./Document_files/section3-containing2-container2.webp" alt="" class="section3-container-images"></div>
+                <div>
+                    <h3 class="h3-in-section3-container">inDrive.Money</h3>
+                </div>
+                <div>
+                    <p>Providing access to fair and transparent<br> financial services for the inDrive community</p>
+                </div>
+                <div>
+                    <button class="buttons-from-section3">Drivers</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <button class="buttons-from-section3" id="section3-firstbutton">
+            <p>Our values</p>
+        </button>
+        <div>
+            <h2 class="section-headings">The values that <mark class="highlight">light our path</mark></h2>
+        </div>
+        <div class="containing1">
+            <div class="containers-in-section4" id="section4-container1">
+                <div>
+                    <h3 class="h3-in-section4-container">People</h3>
+                </div>
+                <div><img src="./Document_files/people.webp" alt="" class="section4-container-images" id="people"></div>
+                <button class="buttons-from-section4">Learn more <!-- Inline SVG close icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="5" stroke="currentColor" class="close-icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="containers-in-section4">
+                <div>
+                    <h3 class="h3-in-section4-container">Purpose</h3>
+                </div>
+                <div><img src="./Document_files/purpose.webp" alt="" class="section4-container-images"></div>
+                <button class="buttons-from-section4">Learn more <!-- Inline SVG close icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="5" stroke="currentColor" class="close-icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="containers-in-section4">
+                <div>
+                    <h3 class="h3-in-section4-container">Performance</h3>
+                </div>
+                <div><img src="./Document_files/performance.webp" alt="" class="section4-container-images"></div>
+                <button class="buttons-from-section4">Learn more <!-- Inline SVG close icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="5" stroke="currentColor" class="close-icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="section5">
+        <button class="buttons-from-section3" id="section3-firstbutton">
+            <p>Safety</p>
+        </button>
+        <div class="header-container-section5">
+            <h2 class="section-headings5">Your safety <mark class="highlight">is our priority</mark></h2>
+        </div>
+        <div><b>
+                <p class="andso-section5" id="stay">Stay on the safe side with inDrive</p>
+            </b></div>
+        <div class="section5-container">
+            <div><img src="./Document_files/section5-smile.webp" alt="" class="section5-smile"></div>
+            <div class="smile-part">
+                <div>
+                    <h2 class="we-want-section5">We want all of us to be on<br> the same page about safety</h2>
+                </div>
+                <div>
+                    <p class="andso-section5">And so, we're calling this page our safety pact –<br> a 3‑sided alliance
+                        between passengers,
+                        drivers and<br>inDrive, with mutual responsibilities for every single<br> ride</p>
+                </div>
+                <div class="button-circle-section5">
+                    <button class="learn-more-button-section5">Learn more</button>
+                    <div><img src="./Document_files/setion5-circle.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section6">
+        <button class="buttons-from-section3" id="section3-firstbutton">
+            <p>Impact</p>
+        </button>
+        <div class="header-container-section5">
+            <h2 class="section-headings5">Social impact: making<br><mark class="highlight">a difference</mark></h2>
+        </div>
+        <div><b>
+                <p class="andso-section5" id="stay">To maximize our positive impact,<br>we created a hub called
+                    inVision<br>
+                    <img src="./Document_files/arrow.svg" alt=""> <mark class="more-about"> more about inVision</mark>
+                </p>
+            </b></div>
+        <div class="floater-container">
+            <div class="section6-floater" id="container21">
+                <div class="numbers">21</div>
+                <div>
+                    <p><b>countries</b></p>
+                </div>
+            </div>
+            <div class="section6-floater" id="container7">
+                <div class="numbers">7</div>
+                <div>
+                    <p><b>projects</b></p>
+                </div>
+            </div>
+            <div class="section6-floater" id="container8">
+                <div class="numbers">8</div>
+                <div>
+                    <p><b>international awards</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="section6-containing">
+            <div>
+                <div class="section6-containers"><img src="./Document_files/Section6-image1.webp" alt="" class="section6-images"></div>
+                <div class="section6-under-image-text">
+                    <p class="section6-texts">A program that inspires young<br> people to become change leaders<br> who
+                        will build a more
+                        sustainable,<br> inclusive and just world</p>
+                </div>
+                <button class="learn-more-button-section5" id="button1-section6">Learn more</button>
+            </div>
+            <div>
+                <div class="section6-containers"><img src="./Document_files/Section6-image2.webp" alt="" class="section6-images"></div>
+                <div class="section6-under-image-text">
+                    <p class="section6-texts">Providing free, problem-based<br>undergraduate education to<br> students
+                        from all
+                        socio-economic<br> backgrounds, inVision U educates<br> founders, the future social and<br>
+                        entrepreneurial leaders of Central<br> Asia</p>
+                </div>
+                <button class="learn-more-button-section5" id="button2-section6">Learn more</button>
+            </div>
+            <div>
+                <div class="section6-containers"><img src="./Document_files/Section6-image3.webp" alt="" class="section6-images"></div>
+                <div class="section6-under-image-text">
+                    <p class="section6-texts">A prize for women founders of IT<br> startups that have had the most<br>
+                        significant
+                        developmental impact.</p>
+                </div>
+                <button class="learn-more-button-section5" id="button3-section6">Learn more</button>
+            </div>
+        </div>
+    </section>
+    <section class="section7">
+        <button class="buttons-from-section3" id="section3-firstbutton">
+            <p>News</p>
+        </button>
+        <div class="header-container-section5">
+            <h2 class="section-headings5"><mark class="highlight">Right now</mark> at inDrive</h2>
+        </div>
+        <div class="major-division">
+            <div class="part1">
+                <div class="section7-image-container"><img src="./Document_files/section7-image.jpg" alt="" class="section7-image"></div>
+                <div class="impact-and-date">
+                    <button class="section7-buttons"><b>impact</b></button>
+                    <p><b>April 13</b></p>
+                </div>
+                <div class="remark"><b>Aurora Tech Award 2025 Announces Global Winners</b></div>
+            </div>
+            <div class="part2">
+                <div class="part2-up">
+                    <div class="part2-image-containers"><img src="./Document_files/section7-image-part1.png" alt="" class="part2-image">
+                    </div>
+                    <div class="part-containing-datepart-and-description">
+                        <div class="impact-and-date">
+                            <button class="section7-buttons"><b>impact</b></button>
+                            <div><b>February 25</b></div>
+                        </div>
+                        <div class="remark"><b>
+                                Aurora Tech Award 2025<br> Announces Groundbreaking<br> Finalists
+                            </b></div>
+                    </div>
+                </div>
+                <div class="part2-middle">
+                    <div class="part2-image-containers"><img src="./Document_files/section7-image-part2(1).jpg" alt="" class="part2-image"></div>
+                    <div class="part-containing-datepart-and-description">
+                        <div class="impact-and-date">
+                            <button class="section7-buttons"><b>corporate</b></button>
+                            <div><b>February 06</b></div>
+                        </div>
+                        <div class="remark"><b>
+                                inDrive Is the World’s Second Most<br> Downloaded Ride-Hailing App For a<br> Third
+                                Consecutive Year </b></div>
+                    </div>
+                </div>
+                <div class="part2-down">
+                    <div class="part2-image-containers"><img src="./Document_files/section7-image-part3.jpg" alt="" class="part2-image">
+                    </div>
+                    <div class="part-containing-datepart-and-description">
+                        <div class="impact-and-date">
+                            <button class="section7-buttons"><b>impact</b></button>
+                            <div><b>November 29</b></div>
+                        </div>
+                        <div class="remark"><b>
+                                inDrive´s inagural Alternativa Film<br> Festival Announces2024 Award<br>Winners,
+                                celebrating films’ artistic<br>
+                                merits and social impact </b></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section8">
+        <img src="./Document_files/section8-highlight.svg" alt="" class="highlight-image">
+        <div class="section8-div">
+            <div class="header-container-section5">
+                <h2 class="section-headings8">From underdog to<br> <mark class="highlight">global company</mark></h2>
+            </div>
+            <div><b>
+                    <p class="andso-section5" id="stay">The true history of the technological phenomenon that is
+                        inDrive,<br> as told by its CEO</p>
+                </b></div>
+            <button class="learn-more-button-section5" id="button1-section8">Download</button>
+        </div>
+    </section>
+    <section class="section9">
+        <div class="section9-divisions" id="section9-division1">
+            <img src="./Document_files/indrive-logo.svg" alt="In-drive-logo" class="In-drive-logo" id="last-in-drive-logo">
+            <div class="division1-part2">
+                <div class="division1-columns">
+                    <p class="gray-texts">Our services</p>
+                    <p> City rides</p>
+                    <p> City to city rides </p>
+                    <p> Courier delivery</p>
+                    <p>Freight delivery</p>
+                    <p> Why inDrive</p>
+                </div>
+                <div class="division1-columns">
+                    <p class="gray-texts">Earn with inDrive</p>
+                    <p> City rides</p>
+                    <p> City to city rides </p>
+                    <p> Courier delivery</p>
+                    <p>Freight delivery</p>
+                    <p>inDrive.money</p>
+                    <p> Why inDrive</p>
+                </div>
+                <div class="division1-columns">
+                    <p class="gray-texts">For business</p>
+                    <p> Courier delivery</p>
+                    <p>Freight delivery</p>
+                    <p> Why inDrive</p>
+                </div>
+                <div>
+                    <p>Safety</p>
+                </div>
+            </div>
+        </div>
+        <div class="section9-divisions" id="section9-division2">
+            <div class="division2-part1">
+                <div class="social-media"><img src="./Document_files/wiki.svg" alt=""></div>
+                <div class="social-media"><img src="./Document_files/fb.svg" alt=""></div>
+                <div class="social-media"><img src="./Document_files/instagram.svg" alt=""></div>
+                <div class="social-media"><img src="./Document_files/x.svg" alt=""></div>
+            </div>
+            <div class="division2-part2">
+                <div class="division2-columns">
+                    <p class="gray-texts">Impact</p>
+                    <p>InVision</p>
+                    <p>Sustainability</p>
+                    <p>Documentary</p>
+                    <p>Book</p>
+                </div>
+                <div class="division2-columns">
+                    <p class="gray-texts"> About us
+                    </p><p> Company</p>
+                    <p> Newsroom</p>
+                    <p> Blog</p>
+                    <p> Careers</p>
+                    <p> New Ventures</p>
+                    <p>Contacts</p>
+                </div>
+            </div>
+        </div>
+        <div class="section9-divisions" id="section9-division3">
+            <div>
+                <p class="gray-texts">inDrive is an online aggregator. We do not<br> participate in cooperations between
+                    our users:
+                    they<br> create and perform all requests in our app on their<br> own</p>
+            </div>
+            <div><button class="en-button"> <img src="./Document_files/web-logo.svg" alt="web-logo">En</button></div>
+            <div class="division3-part2">
+                <div class="pointer">
+                    <img src="./Document_files/app-store.svg" alt="">
+                </div>
+                <div class="pointer">
+                    <img src="./Document_files/google-play.svg" alt="">
+                </div>
+                <div class="pointer">
+                    <img src="./Document_files/app-store.svg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="section9-divisions" id="section9-division4">
+            <div>
+                <p class="gray-texts"><b>© SUOL INNOVATIONS LTD, 2013-2025</b></p>
+            </div>
+            <div class="division4-part2">
+                <div class="division4-part2-div"><b>
+                        <p class="division4-part2-texts">Legal documents</p>
+                    </b></div>
+                <div class="division4-part2-div"><b>
+                        <p class="division4-part2-texts">Terms of use</p>
+                    </b></div>
+                <div class="division4-part2-div"><b>
+                        <p class="division4-part2-texts">Compliance</p>
+                    </b></div>
+                <div class="division4-part2-div"><b>
+                        <p class="division4-part2-texts">Delete account</p>
+                    </b></div>
+            </div>
+    </div></section>
+    
+
+
+</body></html>

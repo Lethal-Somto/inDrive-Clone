@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./javascript1.css">
+</head>
+
+<body>
+
+    
+        <div class=" mx-5 w-[1000px]  bg-zinc-400 h-[400px] rounded-md z-20 ">
+            <div class=" flex justify-between p-4" class="container-with-forms">
+                <div class="text-2xl font-bold" id="Calculator">Calculator</div>
+
+                <div>
+                    <input id="input1" class=" bg-white p-6 rounded-md" type="number">
+                </div>
+                <div>
+                    <select name="sign" id="sign" class="bg-zinc-400">
+                        <option value="+">+</option>
+                        <option value="*">*</option>
+                        <option value="-">-</option>
+                        <option value="/">/</option>
+                        <option value="%">%</option>
+                    </select>
+                </div>
+                <div>
+                    <input id="input2" class=" bg-white p-6 rounded-md" type="number">
+                </div>
+
+                <div id="result" class=" bg-white p-6 rounded-md">
+                </div>
+            </div>
+        </div>
+        <div class="dark-cover"></div>
+    </section>
+    <section id="nextone" class="background" style="--color:#788"></section>
+    <script>
+        let input1 = document.getElementById("input1");
+        let input2 = document.getElementById("input2");
+        let sign = document.getElementById("sign");
+        let result = document.getElementById("result");
+
+        let value1 = input1.value;
+        let value2 = input2.value;
+        input1.addEventListener("input" , function() {
+            value1 = input1.value;
+            value2 = input2.value;
+            if (sign.value == "+") {
+                result.innerHTML = Number(value1) + Number(value2)
+            }
+            if (sign.value == "*") {
+                result.innerHTML = Number(value1) * Number(value2)
+            }
+            if (sign.value == "-") {
+                result.innerHTML = Number(value1) - Number(value2)
+            }
+            if (sign.value == "/") {
+                result.innerHTML = Number(value1) / Number(value2)
+            }
+            if (sign.value == "%") {
+                result.innerHTML = Number(value1) % Number(value2)
+            }
+
+        })
+        input2.addEventListener("input", function () {
+            value2 = input2.value;
+            value1 = input1.value;
+            if (sign.value == "+") {
+                result.innerHTML = Number(value1) + Number(value2)
+            }
+            if (sign.value == "*") {
+                result.innerHTML = Number(value1) * Number(value2)
+            }
+            if (sign.value == "-") {
+                result.innerHTML = Number(value1) - Number(value2)
+            }
+            if (sign.value == "/") {
+                result.innerHTML = Number(value1) / Number(value2)
+            }
+            if (sign.value == "%") {
+                result.innerHTML = Number(value1) % Number(value2)
+            }
+
+        });
+
+        console.log(value1, value2);
+    </script>
+    <script>
+        // Declaring variables
+        let username = "Garena";
+        var password = "12345678";
+        const email = "vic@gmail.com";
+
+        // types of data in js
+        // 7
+        // string, number, boolean, arrays, mappings, set,  null, undefined
+        // 1. string
+        let str = "hello world";
+        // 2. number
+        let num = 1234567890;
+        // 3. boolean
+        let bool = true;
+        // 4. arrays
+        let arr = [1, 2, 3, 4, 5, 6, 8, 7, 8, 9, "10", true, false, "hello world"];
+        // 5. mappings
+        let obj = {
+            name: "vic",
+            age: 23,
+            email: ""
+        };
+        // 6. set
+        let set = new Set([1, 2, 3, 4, 5, 6, 7, 8, 8, 9]);
+        set.delete(2)
+        console.log(set[0]);
+        console.log(new Set(arr))
+        // 7. null
+        let nul = null;
+        // 8. undefined
+        let und = undefined;
+
+        // operators
+        // 1. arithmetic operators + * / % - **
+        console.log(7 % 2);
+        // 2. assignment operators = += -= *= /= %= **=
+        let a = 10;
+        a %= 6; // a = a + 1
+        console.log(a);
+        // 3. increment and decrement operators ++ --
+        let b = 10;
+        console.log(b++); // b = b + 1
+        b++; // b = b + 1
+        console.log(b);
+        // 4. comparison operators == === != !== > < >= <=
+        console.log(10 == 10); // true
+        // 5. logical operators && and, || or,  ! not
+        console.log(10 > 5 && 5 > 10); // false
+
+
+    </script>
+</body>
+
+</html>

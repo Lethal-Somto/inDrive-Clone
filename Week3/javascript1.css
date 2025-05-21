@@ -1,0 +1,20 @@
+#sign{
+    appearance: none;
+    color: white;
+    
+}
+.container-with-forms{
+    display: flex;
+}
+.grey-container{
+    display: flex;
+}
+#Calculator{
+    color: white;
+}
+body{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
